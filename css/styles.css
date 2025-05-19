@@ -466,6 +466,7 @@ footer {
 }
 .project-image {
   float: left;
+  width: 280px;
 }
 .project-info {
   position: absolute;
@@ -473,6 +474,15 @@ footer {
   transform: translateY(-50%);
   margin-left: 300px;
   padding: 15px;
+}
+
+.project-image img {
+  max-width: 100%; /* Garante que a imagem não seja mais larga que o .project-image */
+  height: auto; /* Mantém a proporção da imagem */
+  display: block; /* Remove espaços extras e trata como bloco */
+  /* As margens para centralizar horizontalmente (margin-left: auto; margin-right: auto;)
+     provavelmente não são necessárias aqui, já que a imagem deve preencher
+     o espaço que o .project-image ocupa à esquerda devido ao float. */
 }
 .project-info h3 {
   font-size: 1.5em;
