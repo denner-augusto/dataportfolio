@@ -194,10 +194,12 @@
         </p>
       </div>
     </div>
+
     <div id="projects" class="background-alt">
       <h2 class="heading">Projects</h2>
       <div class="container">
         <div class="row">
+
           <div class="project shadow-large">
             <div class="project-image">
               <img
@@ -220,22 +222,25 @@
               <a href="#">View Project</a>
             </div>
           </div>
+          
           <div class="project shadow-large">
-            <div class="project-image">
-              <img
-                src="images/project_placeholder.jpg"
-                alt="Project Image Placeholder"
-              />
-            </div>
-            <div class="project-info">
-              <h3>Demand Forecasting System (Data Aspects)</h3>
-              <p>
-                Developed the data processing and feature engineering components
-                using Python (Pandas) for a demand forecasting model at Frubana,
-                handling large datasets and ensuring data quality for model
-                training.
-              </p>
-              <a href="#">View Project</a>
+                <div class="project-image">
+                    <img 
+                    src="images/arquitetura_case_ambev.png" 
+                    alt="Open Brewery DB Data Pipeline Architecture" 
+                  />
+                </div>
+                <div class="project-info">
+                    <h3>Open Brewery DB - Data Pipeline (Ambev Case)</h3>
+                    <p>
+                        Developed an end-to-end data pipeline for the BEES Data Engineering - Breweries Case. 
+                        This project ingests data from the Open Brewery DB API, orchestrates workflows (e.g., using Azure Data Factory), 
+                        processes data with Azure Databricks (PySpark/Python) through Bronze (raw data), Silver (cleansed, partitioned by location), 
+                        and Gold layers in a Medallion architecture on a data lake. 
+                        The project also emphasized error handling, testing, and documentation.
+                    </p>
+                    <a href="https://github.com/denner-augusto/Case-Open-Brewery-DB" target="_blank">View Project on GitHub</a>
+                </div>
             </div>
           </div>
         </div>
